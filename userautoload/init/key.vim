@@ -1,6 +1,11 @@
 scriptencoding utf-8
 
 
+function! s:cmd_kill_line()
+  return strpart(getcmdline(), 0, getcmdpos() - 1)
+endfunction
+
+
 " 不要な割り当てを潰す
 nnoremap Q <Nop>
 nnoremap ZQ <Nop>
@@ -62,6 +67,7 @@ cnoremap <C-f> <Right>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
 cnoremap <C-d> <Del>
+cnoremap <C-k> <C-\>e<SID>cmd_kill_line()<CR>
 
 " cmdline ヒストリ補完
 cnoremap <C-p> <Up>
