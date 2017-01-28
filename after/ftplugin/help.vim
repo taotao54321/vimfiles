@@ -2,7 +2,7 @@ scriptencoding utf-8
 
 
 " https://gist.github.com/mmisono/436443
-function s:find_next_help_tagjump(flag)
+function! s:find_next_help_tagjump(flag)
   let orig_view = winsaveview()
   let helpHyperTextJump = '\\\@<!|[^"*|]\+|'
   let helpOption1 = "'[a-z]\\{2,\\}'"
