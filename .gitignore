@@ -1,0 +1,7 @@
+var/backup/*
+var/info/*
+var/swap/*
+var/undo/*
+site.vim
+
+!.gitkeep
