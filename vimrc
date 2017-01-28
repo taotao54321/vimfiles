@@ -10,3 +10,6 @@ augroup END
 
 runtime! userautoload/init/*.vim
 runtime  userautoload/dein/dein.vim
+
+
+source $HOME/.vim/site.vim
