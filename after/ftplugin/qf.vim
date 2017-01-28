@@ -1,4 +1,4 @@
 scriptencoding utf-8
 
 
-nnoremap <buffer> q :close<CR>
+nnoremap <buffer> q :<C-u>close<CR>

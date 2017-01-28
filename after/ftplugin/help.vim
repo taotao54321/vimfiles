@@ -21,4 +21,4 @@ nnoremap <buffer> <silent><Tab>   :<C-u>call <SID>find_next_help_tagjump('W')<CR
 nnoremap <buffer> <silent><S-Tab> :<C-u>call <SID>find_next_help_tagjump('bW')<CR>
 nnoremap <buffer> <CR> <C-]>
 nnoremap <buffer> B <C-T>
-nnoremap <buffer> q :close<CR>
+nnoremap <buffer> q :<C-u>close<CR>
