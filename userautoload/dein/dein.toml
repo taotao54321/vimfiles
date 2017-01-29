@@ -38,6 +38,10 @@ hook_add = 'source ~/.vim/userautoload/plugin/jpformat.vim'
 
 
 [[plugins]]
+repo = 'itchyny/vim-cursorword'
+
+
+[[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.vim/userautoload/plugin/lightline.vim'
 

@@ -12,6 +12,7 @@ set autoindent
 set smartindent
 set shiftwidth=4
 set expandtab
+set smarttab
 
 
 set formatoptions-=ro

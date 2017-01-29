@@ -1,6 +1,7 @@
 scriptencoding utf-8
 
 
+set noshowmode
 set showcmd
 set laststatus=2
 
