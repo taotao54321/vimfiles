@@ -13,6 +13,7 @@ repo = 'vim-jp/vimdoc-ja'
 
 [[plugins]]
 repo = 'tyru/open-browser.vim'
+hook_add = 'source ~/.vim/userautoload/plugin/browser.vim'
 
 
 [[plugins]]
