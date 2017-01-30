@@ -10,8 +10,6 @@ endfunction
 nnoremap Q <Nop>
 nnoremap ZQ <Nop>
 nnoremap ZZ <Nop>
-nnoremap ; <Nop>
-nnoremap , <Nop>
 nnoremap <Space> <Nop>
 nnoremap <C-h> <Nop>
 nnoremap <C-n> <Nop>
@@ -33,14 +31,6 @@ nnoremap k gk
 nnoremap gj j
 nnoremap gk k
 
-" B/F で戻る/進む
-nnoremap B <C-o>
-nnoremap F <C-i>
-
-" gB/gF で編集履歴を戻る/進む
-nnoremap gB g;
-nnoremap gF g,
-
 " Ctrl-n / Ctrl-p で quickfix 内移動
 nnoremap <silent><C-n> :<C-u>cn<CR>
 nnoremap <silent><C-p> :<C-u>cp<CR>
@@ -52,13 +42,6 @@ nnoremap <silent><Esc><Esc> :<C-u>nohlsearch<CR>
 
 " Y で行末までヤンク
 nnoremap Y y$
-
-
-" +/- でインクリメント/デクリメント
-nnoremap + <C-a>
-nnoremap - <C-x>
-nnoremap <C-a> <Nop>
-nnoremap <C-x> <Nop>
 
 
 " emacs 風 cmdline
