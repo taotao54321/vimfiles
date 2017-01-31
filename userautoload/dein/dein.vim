@@ -1,7 +1,7 @@
 scriptencoding utf-8
 
 
-let s:DEIN_BASE  = expand('~/.cache/dein')
+let s:DEIN_BASE  = expand('~/.cache/vim/dein')
 let s:DEIN_REPOS = s:DEIN_BASE . '/repos/github.com/Shougo/dein.vim'
 let s:DEIN_TOML  = expand('~/.vim/userautoload/dein/dein.toml')
 

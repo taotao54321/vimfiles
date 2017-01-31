@@ -2,19 +2,19 @@ scriptencoding utf-8
 
 
 set history=1000
-set viminfo='100,<500,n$HOME/.vim/var/info/viminfo
+set viminfo='100,<500,n$HOME/.cache/vim/info/viminfo
 
 set undofile
-set undodir=$HOME/.vim/var/undo/
+set undodir=$HOME/.cache/vim/undo/
 
 set backup
-set backupdir=$HOME/.vim/var/backup/
+set backupdir=$HOME/.cache/vim/backup/
 
 set swapfile
-set directory=$HOME/.vim/var/swap/
+set directory=$HOME/.cache/vim/swap/
 
 set viewoptions-=options
-set viewdir=$HOME/.vim/var/view/
+set viewdir=$HOME/.cache/vim/view/
 
 
 augroup vimrc
