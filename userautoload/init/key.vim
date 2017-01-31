@@ -14,8 +14,6 @@ nnoremap <Space> <Nop>
 nnoremap <C-h> <Nop>
 nnoremap <C-n> <Nop>
 nnoremap <C-p> <Nop>
-nnoremap <C-o> <Nop>
-nnoremap <C-i> <Nop>
 nnoremap <Tab> <Nop>
 
 inoremap <C-@> <Nop>
