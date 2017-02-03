@@ -69,4 +69,9 @@ repo = 'octol/vim-cpp-enhanced-highlight'
 repo = 'cespare/vim-toml'
 
 
+[[plugins]]
+repo = 'mattn/webapi-vim'
 
+
+[[plugins]]
+repo = 'moznion/hateblo.vim'
